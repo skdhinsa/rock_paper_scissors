@@ -36,7 +36,7 @@ def determine_winner(user, comp):
         print("You lose")
 
 
-def game():
+def play_game():
     while True:
         user = user_selection()
         comp = computer_selection()
