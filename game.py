@@ -42,6 +42,6 @@ def game():
         comp = computer_selection()
         determine_winner(user, comp)
 
-        playAgain = input("Play again: y/n?")
+        playAgain = input("Again: y/n?")
         if playAgain != "y":
             break
